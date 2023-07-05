@@ -11,7 +11,7 @@ import com.example.photoapi.databinding.WallpaperBinding
 
 class WallpaperAdapter : RecyclerView.Adapter<WallpaperAdapter.WallpaperHolder>() {
 
-    lateinit var photos: ArrayList<PhotosItem>
+    var photos = ArrayList<PhotosItem>()
     lateinit var context: Context
 
     class WallpaperHolder(itemView: WallpaperBinding) : ViewHolder(itemView.root) {

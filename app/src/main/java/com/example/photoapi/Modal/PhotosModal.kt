@@ -4,55 +4,55 @@ import com.google.gson.annotations.SerializedName
 
 data class PhotosModal(
 
-    @field:SerializedName("next_page")
+	@field:SerializedName("next_page")
 	val nextPage: String? = null,
 
-    @field:SerializedName("per_page")
+	@field:SerializedName("per_page")
 	val perPage: Int? = null,
 
-    @field:SerializedName("page")
+	@field:SerializedName("page")
 	val page: Int? = null,
 
-    @field:SerializedName("photos")
+	@field:SerializedName("photos")
 	val photos: List<PhotosItem?>? = null,
 
-    @field:SerializedName("total_results")
+	@field:SerializedName("total_results")
 	val totalResults: Int? = null
 )
 
 data class PhotosItem(
 
-    @field:SerializedName("src")
+	@field:SerializedName("src")
 	val src: Src? = null,
 
-    @field:SerializedName("width")
+	@field:SerializedName("width")
 	val width: Int? = null,
 
-    @field:SerializedName("avg_color")
+	@field:SerializedName("avg_color")
 	val avgColor: String? = null,
 
-    @field:SerializedName("alt")
+	@field:SerializedName("alt")
 	val alt: String? = null,
 
-    @field:SerializedName("photographer")
+	@field:SerializedName("photographer")
 	val photographer: String? = null,
 
-    @field:SerializedName("photographer_url")
+	@field:SerializedName("photographer_url")
 	val photographerUrl: String? = null,
 
-    @field:SerializedName("id")
+	@field:SerializedName("id")
 	val id: Int? = null,
 
-    @field:SerializedName("url")
+	@field:SerializedName("url")
 	val url: String? = null,
 
-    @field:SerializedName("photographer_id")
+	@field:SerializedName("photographer_id")
 	val photographerId: Int? = null,
 
-    @field:SerializedName("liked")
+	@field:SerializedName("liked")
 	val liked: Boolean? = null,
 
-    @field:SerializedName("height")
+	@field:SerializedName("height")
 	val height: Int? = null
 )
 
